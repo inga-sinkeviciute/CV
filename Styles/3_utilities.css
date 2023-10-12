@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.bubles {
+	position: fixed;
+	display: flex;
+	z-index: -100;
+}
+
+.bubles span {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	margin: 0 4px;
+	background-color: var(--push-color);
+	border-radius: 50%;
+	animation: animate 20s linear infinite;
+	animation-duration: calc(225s / var(--i));
+	box-shadow: 0 0 0 10px #fc9cdc0c, 0 0 50px var(--push-color),
+		0 0 100px var(--push-color);
+}
+
+.bubles span:nth-child(odd) {
+	background-color: #3f378d;
+	width: 15px;
+	height: 15px;
+	box-shadow: 0 0 0 10px #b4d2ed0d, 0 0 50px var#3f378d, 0 0 100px #3f378d;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(100vh) scale(0);
+	}
+	50% {
+		transform: translateY(-10vh) scale(1);
+	}
+	100% {
+		transform: translateY(100vh) scale(1);
+	}
+}
