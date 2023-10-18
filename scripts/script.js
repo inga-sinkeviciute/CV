@@ -25,3 +25,8 @@ var typingEffect = new Typed(".multiText", {
 	backSpeed: 80,
 	backDelay: 1500,
 });
+
+const toggleSwitch = document.querySelector(".toggleSwitch");
+toggleSwitch.addEventListener("click", function () {
+	document.body.classList.toggle("switch");
+});

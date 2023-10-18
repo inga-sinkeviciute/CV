@@ -1,5 +1,5 @@
 :root {
-	--background-color: #f5f3f3dd;
+	--background-color: #f5f3f3b9;
 	--light-color: #fff;
 	--dark-color: #04072be2;
 	--dark: #04072bf7;
@@ -9,4 +9,12 @@
 	--menu-color: #b4d2ed;
 	--menu-burger-color: #dcb5d4;
 	--accents-color: #cbbddd;
+
+	/* other palette */
+
+	--sun-background: #faccccf4;
+	--sun: #facccc9d;
+	--sun-bubles: #a1ebde;
+	--words: #9e9cf4;
+	--accent-words: #504ded;
 }

@@ -8,10 +8,16 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: var(--dark-color);
+	background-color: var(--dark);
+}
+
+@media only screen and (min-width: 780px) {
+	body {
+		background-color: var(--dark-color);
+	}
 }
 
 img {
 	max-width: 100%;
-	width: 100%;
+	height: auto;
 }
