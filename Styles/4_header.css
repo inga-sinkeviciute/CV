@@ -9,7 +9,7 @@ nav {
 
 .nav {
 	display: flex;
-	align-items: center;
+	justify-content: flex-start;
 }
 
 ul {
@@ -17,6 +17,7 @@ ul {
 	flex: 1;
 	justify-content: right;
 }
+
 li {
 	margin: 15px 5px;
 	list-style-type: none;
@@ -25,12 +26,6 @@ li {
 
 li:hover {
 	transform: scale(1.1);
-}
-
-.logo {
-	font-size: 30px;
-	margin: 15px 8px;
-	padding: 5px;
 }
 
 a {

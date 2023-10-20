@@ -62,6 +62,12 @@ section {
 	color: var(--words);
 }
 
+.socials {
+	font-size: 30px;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
 .right {
 	display: none;
 }
